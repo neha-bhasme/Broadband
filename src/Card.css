@@ -1,0 +1,27 @@
+.card {
+   width: calc(40% - 20px); /* Adjust width based on container width and margin */
+   margin: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .card img {
+   width: 100%;
+   height: 200px; /* Adjust height as needed */
+   object-fit: cover;
+ }
+ 
+ .card-content {
+   padding: 15px;
+ }
+ 
+ .card-content h3 {
+   margin-top: 0;
+ }
+ 
+ .card-content p {
+   margin-bottom: 0;
+ }
+ 
